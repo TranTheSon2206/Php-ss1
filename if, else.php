@@ -1,3 +1,13 @@
+Câu lệnh if-else trong PHP được sử dụng để kiểm tra một điều kiện và thực hiện các hành động khác nhau dựa trên kết quả của điều kiện đó.
+ đây là cú pháp của câu lệnh if-else trong PHP:
+
+       if (condition) {
+            // Thực hiện các hành động khi điều kiện là true
+        } else {
+            // Thực hiện các hành động khi điều kiện là false
+        }
+
+
 <?php
  $score = 85;
     if ($score >= 90) {
