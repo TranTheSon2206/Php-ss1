@@ -19,5 +19,6 @@ Câu lệnh if-else trong PHP được sử dụng để kiểm tra một điề
     } else {
         echo "Điểm số là $score. Bạn chưa đạt hạng đủ điều kiện.";
     }
+//Output: Bạn đạt hạng B.
     
 ?>
