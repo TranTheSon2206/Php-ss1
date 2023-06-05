@@ -1,0 +1,47 @@
+1.Biến kiểu số (Number): Chứa các giá trị số, bao gồm số nguyên (integer) và số thực (float).
+    $age = 25; // Kiểu số nguyên
+    $pi = 3.14; // Kiểu số thực
+
+2.Biến kiểu chuỗi (String): Chứa các dãy ký tự được đặt trong dấu ngoặc kép.
+    $name = "John Doe"; // Chuỗi ký tự
+    $message = 'Welcome to PHP!'; // Chuỗi ký tự
+
+3.Biến kiểu boolean: Chứa giá trị true hoặc false, đại diện cho các trạng thái logic.
+    $isActive = true; // Giá trị boolean true
+    $isReady = false; // Giá trị boolean false
+
+4.Biến kiểu mảng (Array): Chứa một tập hợp các giá trị hoặc các cặp khóa-giá trị.
+    $numbers = [1, 2, 3, 4, 5]; // Mảng số nguyên
+    $names = ['John', 'Jane', 'Joe']; // Mảng chuỗi
+    $student = ['name' => 'John Doe', 'age' => 20]; // Mảng khóa-giá trị
+
+5.Biến kiểu null: Biến không có giá trị hoặc được gán giá trị null.
+    $score = null; // Giá trị null
+
+6.Biến kiểu đối tượng (Object): Chứa một đối tượng được khởi tạo từ một lớp.
+    class Person 
+    {
+        public $name;
+        public $age;
+    }
+    $person = new Person();
+    $person->name = 'John Doe';
+    $person->age = 25;
+
+7.Biến kiểu tài nguyên (Resource): Chứa một tham chiếu đến một tài nguyên bên ngoài như kết nối cơ sở dữ liệu hoặc tệp tin.
+    - Kết nối cơ sở dữ liệu:
+        // Mở kết nối cơ sở dữ liệu
+        $databaseConnection = mysqli_connect("localhost", "username", "password", "database");
+
+        // $databaseConnection là một biến kiểu tài nguyên chứa tham chiếu đến kết nối cơ sở dữ liệu
+    - Kết nối mạng:
+        // Tạo kết nối socket
+        $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+
+        // $socket là một biến kiểu tài nguyên chứa tham chiếu đến kết nối socket
+    - Tệp tin:
+        // Mở một tệp tin để đọc
+        $fileResource = fopen("data.txt", "r");
+
+        // $fileResource là một biến kiểu tài nguyên chứa tham chiếu đến tệp tin
+
