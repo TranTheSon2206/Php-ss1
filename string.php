@@ -1,4 +1,5 @@
-Trong PHP, chuỗi (string) là một loại dữ liệu được sử dụng để lưu trữ và xử lý các dãy ký tự. PHP hỗ trợ nhiều loại chuỗi và cung cấp các hàm và phương thức để làm việc với chuỗi.
+Trong PHP, chuỗi (string) là một loại dữ liệu được sử dụng để lưu trữ và xử lý các dãy ký tự. PHP hỗ trợ nhiều loại chuỗi và cung cấp các hàm và phương thức để làm việc
+với chuỗi.
 Dưới đây là một số loại chuỗi phổ biến trong PHP và ví dụ minh họa:
 
     - Chuỗi đơn (single-quoted string): Được bao quanh bởi dấu nháy đơn ('...'). Trong chuỗi đơn,
